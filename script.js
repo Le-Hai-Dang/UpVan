@@ -138,7 +138,7 @@ function setLanguage(lang) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    const savedLang = localStorage.getItem('upvan-lang') || 'en';
+    const savedLang = localStorage.getItem('upvan-lang') || 'vi';
     setLanguage(savedLang);
 
     document.querySelectorAll('.lang-btn').forEach(btn => {
